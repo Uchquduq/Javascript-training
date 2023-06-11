@@ -16,19 +16,19 @@ console.log(res);
 
 //2 Дана строка “tseb eht ma i”. Используя циклы, сделать строку-перевертыш (то есть последняя буква становится первой, предпоследняя - второй итд).
 
-let str = 'tseb eht ma i';
-let res = '';
+let str1 = 'tseb eht ma i';
+let res1 = '';
 
-for (let i = str.length; i--;) {
-  res += str[i];
+for (let i = str1.length; i--;) {
+  res1 += str[i];
 }
 
-console.log(res);
+console.log(res1);
 
 
 //3 Факториал числа - произведение всех натуральных чисел от 1 до n включительно: 3! = 3*2*1, 5! = 5*4*3*2*1. С помощью циклов вычислить факториал числа 10.Использовать for.
 
-let res = 1;
+let res2 = 1;
 
 for (let i = 1; i <= 10; i++) {
   res *= i;
@@ -37,18 +37,18 @@ for (let i = 1; i <= 10; i++) {
 
 //4 На основе строки “JavaScript is a pretty good language” сделать новую строку,где каждое слово начинается с большой буквы, а пробелы удалены. Использовать for.
 
-let str = 'JavaScript is a pretty good language';
-let res = '';
+let str3 = 'JavaScript is a pretty good language';
+let res3 = '';
 
-for (let i = 0; i < str.length; i++) {
-  if (i === 0 || str[i - 1] === ' ') {
-    res += str[i].toUpperCase();
-  } else if (str[i] !== ' '){
-    res += str[i];
+for (let i = 0; i < str3.length; i++) {
+  if (i === 0 || str3[i - 1] === ' ') {
+    res3 += str3[i].toUpperCase();
+  } else if (str3[i] !== ' '){
+    res3 += str3[i];
   }
 }
 
-console.log(res);
+console.log(res3);
 
 
 //5 Найти все нечетные числа в массиве от 1 до 15 включительно и вывести их в консоль. Массив [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Использовать for of.
